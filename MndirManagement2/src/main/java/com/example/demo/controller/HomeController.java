@@ -6,9 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-	@GetMapping("/hotel")
-	public String hotel()
-	{
-		return "Now Successful...!!";
-	}
+	
+	  @GetMapping("/hotel") 
+	  public String hotel()
+	  {
+		  return "Now Successful...!!";
+		  
+	  }
+	 
 }
